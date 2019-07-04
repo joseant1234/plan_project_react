@@ -9,7 +9,7 @@ var firebaseConfig = {
   databaseURL: process.env.DATABASE_URL,
   projectId:  process.env.PROJECT_ID,
   storageBucket: "",
-  messagingSenderId: "941829892019",
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
   appId:  process.env.APP_ID,
 };
 // Initialize Firebase
